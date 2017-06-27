@@ -5,6 +5,8 @@ define('CSLL', 1);
 
 $valorFinal = calcula_total(150, 15);
 
+echo $valorFinal
+
 function calcula_total($totalVendido, $frete){
 	$totalVendido = $totalVendido + ($totalVendido*(PIS/100));
 	$totalVendido = $totalVendido + ($totalVendido*(COFINS/100));
