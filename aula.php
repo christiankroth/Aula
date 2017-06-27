@@ -7,6 +7,7 @@ $valorFinal = calcula_total(150, 15);
 
 echo $valorFinal
 echo "Teste";
+echo "Outro teste";
 
 function calcula_total($totalVendido, $frete){
 	$totalVendido = $totalVendido + ($totalVendido*(PIS/100));
